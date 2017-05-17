@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "com.car2go.example"
-        minSdkVersion 15
+        minSdkVersion 10
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -33,7 +33,7 @@ dependencies {
 
     // If you are adding Google Maps support you also need to add Google Play Services
     compile project(':anymaps-google')
-    compile 'com.google.android.gms:play-services-maps:10.2.1'
+    compile 'com.google.android.gms:play-services-maps:10.0.1'
 
     compile 'com.android.support:appcompat-v7:25.3.1'
 }
